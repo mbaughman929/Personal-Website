@@ -115,7 +115,7 @@ section .check-skills {
 section.skills {
 	padding-top: 2em;
 }
-.skills h1 {
+.skills .heading {
 	color: #787878;
 	font-size: 2.2em;
 	text-align: center;
@@ -127,6 +127,7 @@ section.skills {
 	font-size: 1em;
 	text-align: center;
 	margin-top: .5em;
+	letter-spacing: 1px;
 }
 .skills .html,
 .php,
@@ -189,16 +190,82 @@ section.skills {
 	color: #787878;
 	font-family: 'Gloria Hallelujah', cursive;
 }
+/* START OF ABOUT SECTION */
 .about {
-	height: 450px;
 	margin-top: 5%;
+	padding-bottom: 5%;
 	text-align: center;
 	background: -webkit-linear-gradient(#4e7ac7, #7fb2f0); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(#4e7ac7, #7fb2f0); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(#4e7ac7, #7fb2f0); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#4e7ac7, #7fb2f0); /* Standard syntax */
 }
+.about .paragraph {
+	margin-top: 3%;
+}
+.about h1 {
+	font-weight: 300;
+	color: #fff;
+}
+.about p {
+	color: #fff;
+	letter-spacing: 1px;
+}
+.about .about-content {
+	text-align: left;
+}
+.about-more h4 {
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+/* END OF ABOUT SECTION */
 
+/* START OF PORTFOLIO */
+section.portfolio {
+	padding-top: 2em;
+/*	padding-bottom: 3%;*/
+}
+section.portfolio .port-heading {
+	color: #787878;
+	font-size: 2.2em;
+	text-align: center;
+	margin-top: .5em;
+	font-weight: 300;
+}
+section.portfolio .port-subheading {
+	color: #787878;
+	font-size: 1em;
+	text-align: center;
+	margin-top: .5em;
+	letter-spacing: 1px;
+}
+section.portfolio img {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+/*END OF PORTFOLIO*/
+
+/*START OF CONTACT SECTION*/
+.contact {
+	margin-bottom: 3%;
+}
+.contact .contact-heading {
+	background: -webkit-linear-gradient(#4e7ac7, #7fb2f0); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#4e7ac7, #7fb2f0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#4e7ac7, #7fb2f0); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#4e7ac7, #7fb2f0); /* Standard syntax */
+	color: #fff;
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 3%;
+}
+.contact .contact-h1 {
+	font-weight: 300;
+}
+.contact .contacting-me {
+	margin-top: 3%;
+}
 
 
 
