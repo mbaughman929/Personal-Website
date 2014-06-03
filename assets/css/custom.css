@@ -74,26 +74,146 @@ body {
 	border: 2px solid #fff;
 	padding: .1em .3em 0 .3em;
 	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 50px;
 }
 .intro i:hover {
 	color: #add5f7;
 	background-color: #fff;
 }
-section .i-am {
+section .hi {
 	margin-bottom: -.4em;
 }
-section .i-am, .web-dev {
+section .hi, .web-dev {
 	text-transform: uppercase;
 	color: #add5f7;
-	font-size: 3em;
+	font-size: 2em;
 	line-height: 140%;
-	letter-spacing: 6px;
+	letter-spacing: 3px;
 }
 section .name {
 	color: #fff;
 	font-size: 6em;
-	letter-spacing: 20px;
+	letter-spacing: 10px;
+	font-weight: 700;
 }
+section img {
+	padding-left: 10px;
+}
+section .check-skills {
+	float: right;
+	margin-top: 7px;
+	color: white;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 1.2em;
+}
+
 /* END INTRO SECTION */
 
-START
+/*START SKILLS*/
+.skills {
+	margin-top: 1.5em;
+}
+.skills h1 {
+	color: #787878;
+	font-size: 2.2em;
+	text-align: center;
+	margin-top: .5em;
+	font-weight: 300;
+}
+.skills .subheading {
+	color: #787878;
+	font-size: 1em;
+	text-align: center;
+	margin-top: .5em;
+}
+.skills .html,
+.php,
+.jquery,
+.ruby,
+.photoshop {
+	color: #fff;
+	background-color: #7fb2f0;
+	margin-top: 1.2em;
+	padding: 1px;
+}
+.skills .p-html,
+.p-photoshop,
+.p-jquery,
+.p-php,
+.p-ruby {
+	font-size: 1.5em;
+	padding: .4em 0 0 .5em;
+}
+.skills .html {
+	width: 100%;
+}
+.skills .photoshop {
+	width: 90%;
+}
+.skills .jquery {
+	width: 85%;
+}
+.skills .php {
+	width: 75%;
+}
+.skills .ruby {
+	width: 45%;
+}
+.skills .measure {
+	height: 7px;
+	width: 100%;
+	background-color: #e4e4e4;
+	margin-top: 5%;
+}
+.skills .measure .beginner {
+	border: 2px solid black;
+	width: 2%;
+	background-color: #e4e4e4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
