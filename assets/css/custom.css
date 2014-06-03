@@ -1,0 +1,99 @@
+/* GLOBAL STYLES */
+body {
+	font-family: 'Ubuntu', sans-serif; 
+	padding-top: 2em;
+}
+/* START NAVIGATION */
+.navbar {
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	background-color: #fff;
+}
+.navbar .navbar-brand {
+	padding-top: .8em;
+}
+.navbar .mid-blue {
+	color: #4e7ac7;
+	font-size: 1.6em;
+}
+.navbar .light-blue {
+	color: #add5f7;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	line-height: 170%;
+	letter-spacing: .38em;
+}
+.navbar .navbar-collapse li a {
+	font-size: 1.2em;
+	color: #4e7ac7;
+	border-bottom: 2px solid #fff;
+	text-transform: uppercase;
+}
+.navbar .navbar-collapse li a:hover {
+	font-size: 1.2em;
+	color: #35478c;
+	border-bottom: 2px solid #35478c;
+}
+.navbar .navbar-collapse li {
+	padding: 1em .4em .6em .4em;
+}
+
+/* END NAVIGATION */
+
+/* START MOBILE NAVIGATION */
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
+/* END MOBILE NAVIGATION */
+
+/* INTRO SECTION */
+.intro {
+	height: 650px;
+	padding-top: 9em;
+	text-align: center;
+	background: -webkit-linear-gradient(#4e7ac7, #7fb2f0); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#4e7ac7, #7fb2f0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#4e7ac7, #7fb2f0); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#4e7ac7, #7fb2f0); /* Standard syntax */
+}
+.intro i {
+	font-size: 4em;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: .1em .3em 0 .3em;
+	border-radius: 5px;
+}
+.intro i:hover {
+	color: #add5f7;
+	background-color: #fff;
+}
+section .i-am {
+	margin-bottom: -.4em;
+}
+section .i-am, .web-dev {
+	text-transform: uppercase;
+	color: #add5f7;
+	font-size: 3em;
+	line-height: 140%;
+	letter-spacing: 6px;
+}
+section .name {
+	color: #fff;
+	font-size: 6em;
+	letter-spacing: 20px;
+}
+/* END INTRO SECTION */
+
+START
