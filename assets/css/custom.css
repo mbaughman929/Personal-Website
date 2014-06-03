@@ -10,17 +10,18 @@ body {
 	background-color: #fff;
 }
 .navbar .navbar-brand {
-	padding-top: .8em;
+	padding-top: 1em;
 }
 .navbar .mid-blue {
 	color: #4e7ac7;
-	font-size: 1.6em;
+	font-size: 1.4em;
+	text-transform: uppercase;
 }
 .navbar .light-blue {
 	color: #add5f7;
 	font-size: 1.1em;
 	text-transform: uppercase;
-	line-height: 170%;
+	line-height: 140%;
 	letter-spacing: .38em;
 }
 .navbar .navbar-collapse li a {
@@ -111,8 +112,8 @@ section .check-skills {
 /* END INTRO SECTION */
 
 /*START SKILLS*/
-.skills {
-	margin-top: 1.5em;
+section.skills {
+	padding-top: 2em;
 }
 .skills h1 {
 	color: #787878;
@@ -160,16 +161,42 @@ section .check-skills {
 .skills .ruby {
 	width: 45%;
 }
-.skills .measure {
-	height: 7px;
-	width: 100%;
-	background-color: #e4e4e4;
-	margin-top: 5%;
+.skills .beginner,
+.proficient,
+.master {
+	display: inline-block;
+	vertical-align: top;
+	height: 25px;
+	border-right: 12px solid #e4e4e4;
+	border-bottom: 10px solid #e4e4e4;
+	margin-top: 3%;
 }
-.skills .measure .beginner {
-	border: 2px solid black;
-	width: 2%;
-	background-color: #e4e4e4;
+.skills .beginner {
+	width: 45%;
+	border-left: 12px solid #e4e4e4;
+}
+.skills .proficient {
+	width: 30%;
+	margin-left: -3px;
+}
+
+.skills .master {
+	width: 25%;
+	margin-left: -3px;
+}
+.graph-text {
+	margin-top: 10px;
+	color: #787878;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.about {
+	height: 450px;
+	margin-top: 5%;
+	text-align: center;
+	background: -webkit-linear-gradient(#4e7ac7, #7fb2f0); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#4e7ac7, #7fb2f0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#4e7ac7, #7fb2f0); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#4e7ac7, #7fb2f0); /* Standard syntax */
 }
 
 
