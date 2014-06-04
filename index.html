@@ -31,10 +31,21 @@
 			<div class="collapse navbar-collapse navbar-right" id="collapse">
 				<ul class="nav navbar-nav">
 					<!-- <li><a href="#page-top"></a></li> -->
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li class="hidden">
+						<a href="#page-top"></a>
+					</li>
+					<li class="page-scroll">
+						<a href="#skills">Skills</a>
+					</li>
+					<li class="page-scroll">
+						<a href="#about">About</a>
+					</li>
+					<li class="page-scroll">
+						<a href="#portfolio">Portfolio</a>
+					</li>
+					<li class="page-scroll">
+						<a href="#contact">Contact</a>
+					</li>
 				</ul>
 			</div>
 			<!-- END OF NAVBAR COLLAPSE -->	 
@@ -43,21 +54,26 @@
 	</nav> 
 	<!-- END OF NAV -->
 
+	<!-- START OF INTRO -->
 	<section class="intro">
 		<div class="intro-body">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-2">
 						<p class="hi">Hi, My name is</p>
-						<h2 class="name">MICHAEL<br/>BAUGHMAN</h2>
+						<h2 class="name visible-lg visible-md visible-sm">MICHAEL<br/>BAUGHMAN</h2>
+						<h2 class="name-small visible-xs">MICHAEL<br>BAUGHMAN</h2>
 						<p class="web-dev">and I am a Web Developer<br>located in Seattle, WA</p>
 						<div class="page-scroll">
                             <a href="#skills" class="btn btn-circle">
                                 <i class="fa fa-angle-double-down animated"></i>
-                                <img src="assets/img/skills-arrow.png" alt="">
-                                <p class="check-skills">Check out my skills</p>
                             </a>
                         </div>
+                        <div class="check-skills">
+                        	<img src="assets/img/skills-arrow-blue.png" alt="">
+                        	<p>Check out my skills</p>
+                        </div>
+                        	
 					</div>
 				</div>
 			</div>
@@ -68,22 +84,22 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
-					<h1 class="heading">SKILLSET &nbspFOR &nbspANY &nbspWEB &nbspPROJECT</h1>
-					<p class="subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, voluptatum, minima, officia velit dignissimos autem qui voluptates voluptas in delectus maxime nostrum optio sint veniam nesciunt temporibus dolorum dolores libero.</p><hr>
+					<h1 class="heading">MY <span class="lightblue"> &nbspSKILLS</span></h1>
+					<p class="subheading">The bar graph below will give you a good idea of my skillset. I also have experience with design, search engine optimization, and pay-per-click campaigns.</p><hr>
 				</div>
 				<div class="graph">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
 						<div class="html">
-							<p class="p-html">HTML / CSS</p>
+							<p class="p-html">HTML / CSS / BOOTSTRAP / RESPONSIVE DESIGN</p>
 						</div>
 						<div class="photoshop">
-							<p class="p-photoshop">PHOTOSHOP</p>
+							<p class="p-photoshop">PHOTOSHOP / ILLUSTRATOR</p>
 						</div>
 						<div class="jquery">
 							<p class="p-jquery">jQUERY / JAVASCRIPT</p>
 						</div>
 						<div class="php">
-							<p class="p-php">PHP</p>
+							<p class="p-php">PHP / MySQL</p>
 						</div>
 						<div class="ruby">
 							<p class="p-ruby">RUBY ON RAILS</p>
@@ -119,30 +135,33 @@
 		<div class="container">
 			<div class="row">
 				<div class="paragraph col-md-12">
-					<h1 class="heading">About &nbspMe</h1>
-					<p class="subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, voluptatum, minima, officia velit dignissimos autem qui voluptates voluptas in delectus maxime nostrum optio sint veniam nesciunt temporibus dolorum dolores libero.</p><hr>
+					<h1 class="heading">About <span class="dark-blue">&nbspMe</span></h1>
+					<p class="subheading">I love clean design, javascript, sushi, and a few craft beers every now and then.</p><hr>
 				</div>
 				<div class="col-md-4 col-sm-4">
-					<img src="http://placehold.it/350x250" class="img-responsive">
+					<img src="assets/img/michael-baughman2.jpg" class="img-responsive me">
 				</div>
 				<div class="col-md-8 col-sm-8">
 					<div class="about-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, optio, voluptates eaque perspiciatis voluptatum repellat rerum laborum iure aut error quos nam id delectus. Adipisci, ducimus enim maxime autem dolorem asperiores dignissimos. Eos, a in totam nihil libero veniam quas cumque odit autem quod? In, voluptatum voluptatem ea esse sit debitis ducimus veritatis illum harum sapiente quis corporis tenetur ratione obcaecati dolorem nihil aut accusantium maiores assumenda iure libero quos quae illo eveniet minima beatae architecto cumque expedita quam labore sed consequuntur unde possimus. Minima mollitia saepe quos explicabo enim quo et blanditiis. Alias, fuga necessitatibus obcaecati esse inventore molestias.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, tempore, neque quam in obcaecati natus atque vel eum dolores laudantium dolore iure quis laborum impedit vero repellendus animi cum labore nisi minus. Minima, veritatis, exercitationem, beatae sint ipsum voluptatibus sapiente obcaecati consequatur illum ratione amet non officia nisi. Voluptatem, amet!</p>
+						<p>I fell in love with website design during my senior year in college back in 2011. Over the years, I have spent countless hours learning design and development from resources such as <a href="http://www.lynda.com">Lynda.com</a>, <a href="http://www.teamtreehouse.com">Teamtreehouse.com</a>, <a href="http://www.codeschool.com">CodeSchool.com</a> and many more. Most recently, I attended an intensive programming bootcamp, <a href="http://www.codingdojo.com">Coding Dojo</a>. My experience at Coding Dojo really set a new standard for my skills, and has made me a very well rounded front-end web developer.</p>
+						<p>Currently I am working as a freelance web developer in the Seattle metro area, and absolutely love all things related to design and development. I am open to any possible job opportunities I feel I might be a good fit at.</p>
+						<p>Whether you are looking for a skilled front-end devloper to contract work to or looking for someone to join your team, feel free to reach out. Cheers! :)</p>
 					</div>
 				</div>
+			</div>
+			<div class="row">
 				<div class="about-more">
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-						<h4>My Passion</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, aperiam, aliquam, obcaecati reprehenderit recusandae sed libero harum inventore id eligendi debitis accusamus labore rerum soluta deleniti.</p>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<h4><span class="glyphicon glyphicon-user"></span><span class="dark-blue">More About Me</span></h4>
+						<p>I believe in the work hard, play hard mentality. I enjoy working with clients who are as passionate about their business as I am with my services.</p>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-						<h4>My Passion</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, aperiam, aliquam, obcaecati reprehenderit recusandae sed libero harum inventore id eligendi debitis accusamus labore rerum soluta deleniti.</p>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<h4><span class="glyphicon glyphicon-heart"></span><span class="dark-blue">What I Love</span></h4>
+						<p>Design and development is more than a passion of mine, it's about providing a seamless and memorable experience to the end user which makes me love what I do.</p>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-						<h4>My Passion</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, aperiam, aliquam, obcaecati reprehenderit recusandae sed libero harum inventore id eligendi debitis accusamus labore rerum soluta deleniti.</p>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<h4><span class="glyphicon glyphicon-plane"></span><span class="dark-blue">Ready to Go</span></h4>
+						<p>Over the years I have continued to refine my skills. No matter the project or challenge, I am ready to dive in head first and provide an end product we both will be proud of.</p>
 					</div>
 				</div>
 			</div>
@@ -153,17 +172,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
-					<h1 class="port-heading">SOME &nbspOF &nbspMY &nbspWORK</h1>
-					<p class="port-subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, voluptatum, minima, officia velit dignissimos autem qui voluptates voluptas in delectus maxime nostrum optio sint veniam nesciunt temporibus dolorum dolores libero.</p><hr>
+					<h1 class="port-heading">SOME &nbspOF <span class="lightblue">&nbspMY &nbspWORK</span></h1>
+					<p class="port-subheading">Below you will find a few examples of my work. To view projects I am currently working on, visit  <a href="https://github.com/mbaughman929">my GitHub</a> profile.</p><hr>
 				</div>
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					<img src="http://placehold.it/350x350" alt="">
+					<img style="border:5px solid #ddd;" src="assets/img/wordstream.jpg" alt="" class="img-responsive">
 				</div>
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					<img src="http://placehold.it/350x350" alt="">
+					<img src="http://placehold.it/350x350" alt="" class="img-responsive">
 				</div>
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					<img src="http://placehold.it/350x350" alt="">
+					<img src="http://placehold.it/350x350" alt="" class="img-responsive">
 				</div>
 			</div><hr>
 		</div>
@@ -172,7 +191,7 @@
 	<section class="contact" id="contact">
 		<div class="contact-heading">
 			<div class="container">
-				<h1 class="contact-h1">Contact Me, Please?</h1>
+				<h1 class="contact-h1">Contact Me, <span class="dark-blue">Please?</span></h1>
 				<p class="contact-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, possimus.</p>
 			</div>
 		</div>
@@ -180,7 +199,7 @@
 			<div class="row">
 				<div class="contacting-me">
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<h2 class="social-heading">Get Social</h2>
+							<h2 class="social-heading">Connect With Me</h2>
 							<div class="row">
 								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 									<p>test</p>
@@ -220,7 +239,7 @@
 								<textarea type="text" class="form-control" id="message" placeholder="Leave me a message.."></textarea>
 							</div>
 						
-							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="submit" class="btn btn-primary btn-block">Submit</button>
 						</form>
 					</div>
 				</div>
@@ -228,16 +247,13 @@
 		</div>
 	</section>
 	
-
-
-
-
-
-
+	
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<!-- Bootstrap JavaScript -->
 	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- PLUGINS -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	<!-- CUSTOM JAVASCRIPT -->
 	<script src="assets/js/app.js"></script>
 </body>

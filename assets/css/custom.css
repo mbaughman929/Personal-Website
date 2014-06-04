@@ -3,11 +3,21 @@ body {
 	font-family: 'Ubuntu', sans-serif; 
 	padding-top: 2em;
 }
+.dark-blue {
+	color: #35478c; 
+}
+.lightblue {
+	color: #add5f7;
+}
+p {
+	font-size: 1.1em;
+}
 /* START NAVIGATION */
 .navbar {
 	margin-bottom: 0;
 	padding-bottom: 10px;
 	background-color: #fff;
+	border: none;
 }
 .navbar .navbar-brand {
 	padding-top: 1em;
@@ -24,6 +34,9 @@ body {
 	line-height: 140%;
 	letter-spacing: .38em;
 }
+.navbar .navbar-collapse {
+	border: none;
+}
 .navbar .navbar-collapse li a {
 	font-size: 1.2em;
 	color: #4e7ac7;
@@ -38,25 +51,23 @@ body {
 .navbar .navbar-collapse li {
 	padding: 1em .4em .6em .4em;
 }
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus{
+	background-color: #fff;
+}
 
 /* END NAVIGATION */
 
 /* START MOBILE NAVIGATION */
-.navbar-inverse .navbar-toggle {
-	color: white;
-	font-weight: bold;
-	border-color: white;
+.navbar-default .navbar-toggle {
+	color: #4e7ac7;
+	font-weight: 400;
+	border: 2px solid #4e7ac7;
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 1em;
 }
-.navbar-inverse .navbar-toggle:hover {
-	background-color: #ddd;
-	color: #333;
-}
-.navbar-inverse .navbar-toggle .glyphicon {
-	color: white;
-}
-.navbar-inverse .navbar-toggle:hover .glyphicon {
-	color: #333;
-}
+
 /* END MOBILE NAVIGATION */
 
 /* INTRO SECTION */
@@ -75,8 +86,6 @@ body {
 	border: 2px solid #fff;
 	padding: .1em .3em 0 .3em;
 	border-radius: 5px;
-	margin-top: 10px;
-	margin-left: 50px;
 }
 .intro i:hover {
 	color: #add5f7;
@@ -92,34 +101,37 @@ section .hi, .web-dev {
 	line-height: 140%;
 	letter-spacing: 3px;
 }
-section .name {
+section .name,
+.name-small {
 	color: #fff;
 	font-size: 6em;
 	letter-spacing: 10px;
 	font-weight: 700;
 }
-section img {
-	padding-left: 10px;
+section .name-small {
+	font-size: 3.7em;
 }
+
 section .check-skills {
-	float: right;
-	margin-top: 7px;
-	color: white;
+	color: #35478c;
 	font-family: 'Gloria Hallelujah', cursive;
 	font-size: 1.2em;
+	padding-left: 160px;
+	margin-top: -35px;
 }
+
 
 /* END INTRO SECTION */
 
 /*START SKILLS*/
-section.skills {
-	padding-top: 2em;
+.skills {
+	padding-top: 3em;
 }
 .skills .heading {
 	color: #787878;
 	font-size: 2.2em;
 	text-align: center;
-	margin-top: .5em;
+	margin-top: 2em;
 	font-weight: 300;
 }
 .skills .subheading {
@@ -192,7 +204,7 @@ section.skills {
 }
 /* START OF ABOUT SECTION */
 .about {
-	margin-top: 5%;
+	margin-top: 3%;
 	padding-bottom: 5%;
 	text-align: center;
 	background: -webkit-linear-gradient(#4e7ac7, #7fb2f0); /* For Safari 5.1 to 6.0 */
@@ -204,6 +216,7 @@ section.skills {
 	margin-top: 3%;
 }
 .about h1 {
+	padding-top: 2em;
 	font-weight: 300;
 	color: #fff;
 }
@@ -213,18 +226,46 @@ section.skills {
 }
 .about .about-content {
 	text-align: left;
+	margin-top: 3%;
+}
+.about .about-more {
+	text-align: left;
+	margin-top: 30px;
 }
 .about-more h4 {
-	color: #fff;
 	letter-spacing: 1px;
 	font-weight: 300;
+	margin-bottom: 20px;
 }
+.about .about-more p {
+	padding-bottom: 2em;
+}
+.about .about-more 
+.glyphicon-plane,
+.glyphicon-heart,
+.glyphicon-user {
+	color: #fff;
+	margin-right: 10px;
+}
+.about .about-content a {
+	color: #35478c;
+}
+.about img {
+	border: 5px solid #fff;
+/*	box-shadow: 2px 2px 3px #606060;*/
+	margin-bottom: 15px;
+	margin-top: 3.5%;
+}
+
 /* END OF ABOUT SECTION */
 
 /* START OF PORTFOLIO */
 section.portfolio {
 	padding-top: 2em;
 /*	padding-bottom: 3%;*/
+}
+.portfolio h1 {
+	padding-top: 2em;
 }
 section.portfolio .port-heading {
 	color: #787878;
@@ -243,6 +284,7 @@ section.portfolio .port-subheading {
 section.portfolio img {
 	margin-top: 5%;
 	margin-bottom: 5%;
+	padding-bottom: 2em;
 }
 /*END OF PORTFOLIO*/
 
