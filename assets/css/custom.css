@@ -24,27 +24,27 @@ p {
 }
 .navbar .mid-blue {
 	color: #4e7ac7;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	text-transform: uppercase;
 }
 .navbar .light-blue {
 	color: #add5f7;
-	font-size: 1.1em;
+	font-size: 1em;
 	text-transform: uppercase;
 	line-height: 140%;
-	letter-spacing: .38em;
+	letter-spacing: .44em;
 }
 .navbar .navbar-collapse {
 	border: none;
 }
 .navbar .navbar-collapse li a {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color: #4e7ac7;
 	border-bottom: 2px solid #fff;
 	text-transform: uppercase;
 }
 .navbar .navbar-collapse li a:hover {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color: #35478c;
 	border-bottom: 2px solid #35478c;
 }
@@ -54,6 +54,26 @@ p {
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus{
 	background-color: #fff;
+}
+@media(min-width:767px) {
+    .navbar {
+        padding: 15px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: white;
+        -webkit-transition: background .7s ease-in-out,padding .7s ease-in-out;
+        -moz-transition: background .7s ease-in-out,padding .7s ease-in-out;
+        transition: background .7s ease-in-out,padding .7s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #fff;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(184,184,184,.3);
+    }
 }
 
 /* END NAVIGATION */
@@ -223,6 +243,7 @@ section .check-skills {
 .about p {
 	color: #fff;
 	letter-spacing: 1px;
+	font-weight: 300;
 }
 .about .about-content {
 	text-align: left;
@@ -239,6 +260,7 @@ section .check-skills {
 }
 .about .about-more p {
 	padding-bottom: 2em;
+	font-weight: 300;
 }
 .about .about-more 
 .glyphicon-plane,
@@ -249,6 +271,7 @@ section .check-skills {
 }
 .about .about-content a {
 	color: #35478c;
+	font-weight: 400;
 }
 .about img {
 	border: 5px solid #fff;
@@ -282,15 +305,19 @@ section.portfolio .port-subheading {
 	letter-spacing: 1px;
 }
 section.portfolio img {
+	position: relative;
 	margin-top: 5%;
 	margin-bottom: 5%;
-	padding-bottom: 2em;
+	border: 5px solid rgba(184,184,184,.5);
 }
+
+
 /*END OF PORTFOLIO*/
 
 /*START OF CONTACT SECTION*/
 .contact {
 	margin-bottom: 3%;
+	margin-top: 5%;
 }
 .contact .contact-heading {
 	background: -webkit-linear-gradient(#4e7ac7, #7fb2f0); /* For Safari 5.1 to 6.0 */
@@ -305,9 +332,67 @@ section.portfolio img {
 .contact .contact-h1 {
 	font-weight: 300;
 }
+.contact .contact-p {
+	font-weight: 300;
+}
 .contact .contacting-me {
 	margin-top: 3%;
 }
+.contact h2 {
+	color: #787878;
+	font-size: 2.2em;
+	font-weight: 300;
+	margin-bottom: 3%;
+}
+.contact label {
+	font-size: 1.3em;
+	font-weight: 400;
+	color: #787878;
+	padding-bottom: 5px;
+}
+.contact .form-group textarea {
+	height: 120px;
+}
+.contact button {
+	height: 50px;
+	font-size: 1.2em;
+}
+.contact .social-icons p {
+	color: #787878;
+}
+.contact .social-icons .glyphicon {
+	color: #4e7ac7;
+	padding: 5px;
+	margin-right: 15px;
+	border: 1px solid #4e7ac7;
+	border-radius: 100%;
+	margin-top: 5px;
+}
+.contacting-me .btn-lg {
+	border: 1px solid #4e7ac7;
+	color: #4e7ac7;
+}
+.contacting-me .btn-lg:hover {
+	border: 1px solid #4e7ac7;
+	background-color: #4e7ac7; 
+	color: #fff;
+}
+/*.contacting-me
+i.fa-linkedin,
+i.fa-facebook,
+i.fa-github {
+	color: #fff;
+}*/
+
+#map {
+	width: 100%;
+	height: 350px;
+	margin-top: 20px;
+	border: 5px solid rgba(184,184,184,.5);
+}
+
+
+
 
 
 
